@@ -1,0 +1,71 @@
+
+body{
+  font-family: 'Red Hat Display', sans-serif; 
+   background-color: hsl(225, 100%, 94%);
+  background-image: url(../image/pattern-background-desktop.svg);
+}
+.first{
+  width: 300px;
+  height: 500px;
+ margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+
+}
+.child-1{
+  border-radius: 15px 15px 0 0;
+  width: 320px;
+  height: 200px;
+}
+.child-2{
+  font-size: 10px;
+  height: 300px;
+  width: 280px;
+  background-color: hsl(225, 100%, 98%);
+  padding: 20px;
+  text-align: center;
+  border-radius: 0 0 15px 15px;
+}
+p{
+  font-size: 15px;
+  font-weight: 800px;
+  color: hsla(240, 3%, 55%, 0.724);
+}
+.one{
+  padding: 10px 0;
+}
+.third{
+  margin: 20px;
+  background-color: hsla(240, 6%, 90%, 0.249);
+  display: flex;
+  flex-direction: row;
+  
+}
+.music{
+  width: 30px;
+    height: 35px;
+    padding: 17px 10px;
+}
+a{
+  padding: 25px 55px;
+}
+.proceed{
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+.proceed:hover{
+  background-color: hsl(224, 23%, 55%);
+}
+.text:hover{
+  color: black;
+  
+}
+a:hover{
+  text-decoration: none;
+}
+ 
+ 
