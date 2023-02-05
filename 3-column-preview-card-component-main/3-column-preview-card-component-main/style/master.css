@@ -1,0 +1,65 @@
+
+body{
+  font-family: 'Lexend Deca', sans-serif;
+}
+h1{
+  font-family: 'Big Shoulders Display', cursive;
+}
+.parent{
+ width: 700px;
+ height: 380px;
+ margin: 100px auto;
+ display: grid;
+ grid-template-columns: repeat(3, auto);
+}
+.child-1, .child-2, .child-3{
+  padding: 30px 25px 0;
+  color: white;
+}
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 13px;
+}
+.child-1{
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 5px 0 0 5px;
+}
+.child-2{
+ background-color: hsl(184, 100%, 22%);
+}
+.child-3{
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 5px 5px;
+}
+input{
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 15px;
+  padding: 10px 0px;
+  border: 0;
+  margin: 44px 0;
+  text-align: center;
+  border: 1px solid white
+}
+.child-1 input{
+  color: hsl(31, 77%, 52%);
+}
+.child-2 input{
+  color: hsl(184, 100%, 22%);
+}
+.child-3 input{
+  color: hsl(179, 100%, 13%);
+}
+
+input:hover{
+  background-color: inherit;
+  color: white;
+ 
+}
+    /* small */
+    @media(max-width: 678px){
+     .parent{
+      margin: 10% 30%;
+      grid-template-columns: 300px;
+      grid-template-rows: repeat(3, auto);
+     }
+    }
