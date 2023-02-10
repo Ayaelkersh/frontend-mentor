@@ -1,0 +1,62 @@
+body{
+    background-image: url(../images/bg-pattern-top.svg) , 
+    url(../images/bg-pattern-bottom.svg);
+    background-position: top -437px left -443px, right -507px bottom -423px;
+    background-repeat: no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    font-family: 'Kumbh Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.image{
+    background-image: url(../images/bg-pattern-card.svg);
+    width: 300px;
+    border-radius: 10px 5px 0 0;
+    height: 140px;
+}
+.circle{
+    position: relative;
+    top: -11px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.box{
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+.child-1{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+}
+.child-2{
+    position: relative;
+    top: -18px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+.border{
+    border-bottom: 1px solid hsl(0, 0%, 85%);
+    position: relative;
+    top: -43px;
+    padding-bottom: 10px;
+}
+span{
+    color: hsl(0, 0%, 58%);
+    font-weight: 300;
+    font-size: 12px;
+}
+.child-2 div,
+.child-1 div {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
