@@ -55,13 +55,18 @@ body {
   border-top: 3px solid hsl(212, 86%, 64%);
   background-color: white;
 }
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  box-shadow: 0 0px 7px -3px;
+}
 img {
   width: 35px;
 }
 .photo {
   display: flex;
   justify-content: right;
-  /* width: 35px; */
   align-items: flex-end;
 }
 p {
