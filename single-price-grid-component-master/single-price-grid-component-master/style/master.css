@@ -1,0 +1,81 @@
+body {
+  background-color: hsl(218, 22%, 67%);
+}
+.parent {
+  font-family: "Karla", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: white;
+}
+.box-1 {
+  grid-area: 1 / 1 / span 1 / span 2;
+  background-color: hsl(204, 43%, 93%);
+  padding: 30px;
+  border-radius: 10px 10px 0 0;
+}
+.box-2 {
+  grid-area: 2 / 1 / span 1 / span 1;
+  background-color: hsl(179, 62%, 38%);
+  padding: 30px;
+  border-radius: 0 0 0 10px;
+}
+.box-3 {
+  grid-area: 2 / 2 / span 1 / span 1;
+  background-color: hsl(179, 62%, 43%);
+  padding: 30px;
+  border-radius: 0 0 10px 0;
+}
+.box-1 h3 {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+}
+.box-1 div {
+  color: hsl(71, 73%, 54%);
+}
+.box-1 p {
+  color: hsl(218, 22%, 67%);
+}
+.child {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.box {
+  background-color: hsl(71, 73%, 54%);
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.prise {
+  font-size: 20px;
+  font-weight: 700;
+}
+.text {
+  font-size: 14px;
+  color: hsl(179, 62%, 43%);
+  font-weight: 400;
+}
+.box-3 p {
+  font-size: 13px;
+  color: hsl(204, 43%, 93%);
+}
+@media (max-width: 678px) {
+  .parent {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+  }
+  .box-3 {
+    border-radius: 0 0 10px 10px;
+  }
+  .box-2 {
+    border-radius: 0;
+  }
+}
