@@ -59,6 +59,10 @@ i.fa-brands.fa-twitter {
   border-radius: 50%;
   padding: 5px;
 }
+i.fa-brands.fa-twitter:hover {
+  color: hsl(300, 69%, 71%);
+  border: 1px solid hsl(300, 69%, 71%);
+}
 i.fa-brands.fa-instagram {
   border: 1px solid white;
   border-radius: 50%;
