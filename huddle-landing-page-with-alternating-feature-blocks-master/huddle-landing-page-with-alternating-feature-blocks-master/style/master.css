@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+}
+.box-1 {
+  background-image: url(../images/bg-hero-desktop.svg);
+  position: relative;
+}
+.child-1 {
+  gap: 25px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.nav {
+  padding: 15px;
+  display: flex;
+  gap: 587px;
+  flex-direction: row;
+}
+.child-1 div {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+}
+.child {
+  position: absolute;
+  padding: 10px;
+  background-color: hsl(193, 100%, 120%);
+  border-radius: 15px;
+  top: 7px;
+  right: 12px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 8px 2px 15px 0px #ddd;
+}
+.box-2 {
+  margin: 100px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+}
+.one,
+.three {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 30px;
+  border-radius: 10px;
+  box-shadow: 8px 2px 15px 0px #ddd;
+}
+img {
+  width: 400px;
+}
+.two {
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(193, 100%, 120%);
+  border-radius: 10px;
+  box-shadow: 8px 2px 15px 0px #ddd;
+}
+.nav img {
+  width: 100px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+.box-3 {
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  top: -75px;
+  right: 40%;
+  text-align: center;
+  box-shadow: 5px -18px 13px -10px #ddd;
+  border-radius: 10px;
+}
+.box-4 {
+  padding: 10px;
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  padding-top: 87px;
+  gap: 30px;
+  align-items: center;
+  position: relative;
+}
+.box-4 img {
+  width: 10px;
+  height: 10px;
+}
+.box-4 .image {
+  width: 200px;
+  height: 50px;
+}
+.text-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.button {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 10px;
+}
+.box-3 .button {
+  position: relative;
+  left: 27%;
+}
+.link {
+  position: relative;
+  bottom: 12px;
+  right: -322%;
+}
+.icon {
+  font-size: 13px;
+  display: flex;
+  gap: 10px;
+}
+i.fa-brands.fa-facebook-f,
+i.fa-brands.fa-twitter,
+i.fa-brands.fa-instagram {
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 5px;
+}
+h2 {
+  color: black;
+}
+.child:hover {
+  color: #eee;
+}
+.button:hover {
+  background-color: hsl(322, 100%, 86%);
+}
+@media (max-width: 678px) {
+  .child-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  img.image {
+    width: 360px;
+  }
+  .one,
+  .two,
+  .three {
+    display: flex;
+    flex-direction: column;
+    width: 303px;
+    gap: 10px;
+  }
+  img {
+    width: 200px;
+  }
+  .box-3 {
+    left: 2%;
+  }
+  .box-4 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .link {
+    text-align: center;
+    right: 0;
+  }
+  .icon {
+    position: relative;
+    left: 141px;
+  }
+}
