@@ -1,5 +1,13 @@
 body {
   margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-weight: 400;
 }
 .box-1 {
   background-image: url(../images/bg-hero-desktop.svg);
@@ -102,6 +110,11 @@ img {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  font-size: 12px;
+}
+
+.text-3 {
+  font-size: 12px;
 }
 .button {
   background-color: hsl(322, 100%, 66%);
@@ -160,7 +173,9 @@ h2 {
     width: 200px;
   }
   .box-3 {
-    left: 2%;
+    position: relative;
+    left: 0%;
+    top: -152px;
   }
   .box-4 {
     display: grid;
@@ -173,5 +188,11 @@ h2 {
   .icon {
     position: relative;
     left: 141px;
+  }
+  .box-1 button {
+    margin-left: 73px;
+  }
+  .box-2 img {
+    margin-left: 50px;
   }
 }
