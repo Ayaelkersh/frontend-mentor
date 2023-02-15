@@ -45,6 +45,10 @@ p {
   flex-direction: row;
   gap: 20px;
 }
+.image {
+  position: relative;
+  right: 19px;
+}
 .child-2 {
   display: flex;
   align-items: center;
@@ -86,7 +90,6 @@ ul {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* background-color: hsl(220, 18%, 97%); */
   color: hsl(210, 10%, 33%);
 }
 .box-8 img {
@@ -128,6 +131,7 @@ nav {
 }
 .box-8 a {
   color: hsl(210, 10%, 33%);
+  margin-left: 0;
 }
 .box-8 a:hover {
   color: hsl(233, 100%, 80%);
@@ -167,5 +171,8 @@ nav {
   a {
     padding: 10px 47px;
     margin-left: 80px;
+  }
+  .image {
+    right: 0;
   }
 }
