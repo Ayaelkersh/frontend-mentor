@@ -10,6 +10,7 @@ body {
   background: url(../images/bg-header-desktop.png);
   background-repeat: no-repeat;
   background-position: top;
+  background-size: cover;
 }
 img {
   margin-top: 6.1rem;
@@ -180,7 +181,7 @@ nav {
     margin-left: 80px;
   }
   .image {
-    right: 3px;
+    right: 8px;
   }
   .child-1 {
     margin-left: -22px;
